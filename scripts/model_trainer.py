@@ -9,6 +9,7 @@ from sklearn.decomposition import PCA
 import joblib
 import os
 
+
 class ModelTrainer:
     def __init__(self):
         self.models = {}
@@ -38,7 +39,8 @@ class ModelTrainer:
         y_test = np.load('data/y_test.npy')
         
         return merged_data, image_features, audio_features, X_train, X_test, y_train, y_test
-    
+
+
     def train_facial_recognition_model(self, image_features):
         """
         Train facial recognition model

@@ -269,6 +269,7 @@ class ImageProcessor:
         
         return df
 
+
 def main():
     """
     Main function to process images
@@ -285,6 +286,7 @@ def main():
     features_df = processor.process_all_images()
     
     print("Image processing complete!")
+
 
 if __name__ == "__main__":
     main()
