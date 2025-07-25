@@ -21,8 +21,8 @@ class ImageProcessor:
         """
         os.makedirs('data/images', exist_ok=True)
         
-        # Define 6 members and the specified emotions
-        members = ['member1', 'member2', 'member3', 'member4', 'member5', 'member6']
+        # Define members 
+        members = ['member1', 'member2', 'member3', 'member4', 'member5']
         emotions = ['neutral', 'smiling', 'normal']
         
         for member in members:
