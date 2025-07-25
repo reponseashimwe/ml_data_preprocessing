@@ -262,39 +262,41 @@ The system includes comprehensive demonstration capabilities:
 ```
 Team Contributions
 
-```
-Team Contributions
+👩‍🔬 Diana – Data Architect & EDA Specialist  
+Led the development of the `Notebook/` and `data/` folders with precision.  
+- Engineered the entire dataset structure and organization, ensuring smooth preprocessing workflows.  
+- Conducted in-depth exploratory data analysis (EDA) within the Jupyter Notebook to inform model selection and feature design.  
+- Designed and managed `image_features.csv` and `audio_features.csv` to encapsulate meaningful insights from raw multimodal data.  
+Her work laid the analytical foundation for all downstream model decisions.
 
-👨‍💻 John – Lead Developer & Image Processing
-- Designed and implemented the facial recognition model using Random Forest
-- Developed the image augmentation pipeline (grayscale, rotation, brightness)
-- Led feature extraction and PCA reduction for facial images
-- Coordinated the main execution script (run_pipeline.py)
+💡 Joan – Pipeline Engineer & Integration Strategist  
+Authored the master control script: `run_pipeline.py`.  
+- Built a modular execution pipeline that automated data merging, processing, training, and evaluation.  
+- Ensured robust error handling and cross-platform compatibility, making it easy for the team to simulate real-world deployments.  
+- Introduced sequential logging to enable transparency and debugging throughout the pipeline flow.  
+Her orchestration script brought all individual components into a seamless execution narrative.
 
-👩‍🔬 Diana – Audio Processing & Voice Verification
-- Engineered the audio processing pipeline using librosa and soundfile
-- Applied voice augmentations (pitch shift, time stretch, background noise)
-- Extracted MFCCs and spectral features for voice verification
-- Built and evaluated the logistic regression voice model
+👨‍💻 John – CLI System Designer & UX Champion  
+Designed the interactive command-line application `app.py`.  
+- Developed user authentication simulation with multimodal decision branching (face, voice, recommendation).  
+- Implemented unauthorized access simulation and dynamic feedback to showcase real-time detection capabilities.  
+- Created a CLI user experience that mimicked a real secure transaction environment.  
+His work transformed the technical core into a demonstrable and engaging system.
 
-🧠 Christian – Data Integration & Product Recommendation
-- Merged and cleaned customer social profile and transaction datasets
-- Engineered behavioral features for recommendation model
-- Trained and evaluated the Random Forest product recommendation system
-- Led system evaluation and performance reporting
+🚀 Ishimwe – Model Training Lead & Systems Integrator  
+Spearheaded the `scripts/model` submodule and oversaw model logic integration.  
+- Built the facial recognition and product recommendation models using advanced ensemble methods.  
+- Optimized training pipelines for efficiency, reproducibility, and accuracy through smart hyperparameter tuning.  
+- Ensured modularity so models could be improved independently while still integrating seamlessly with the pipeline.  
+His role as the “glue” ensured data, features, and models clicked together perfectly.
 
-💡 Joan – System Simulation & Report Documentation
-- Developed the CLI-based demonstration system (app.py)
-- Implemented unauthorized attempt detection logic
-- Created the analysis notebook with performance summaries and visualizations
-- Compiled final documentation, including README and presentation assets
+🧠 Christian – Audio ML Expert & Co-Model Developer  
+Co-led the `scripts/model` directory with a focus on audio authentication.  
+- Engineered the MFCC-based voice verification model using logistic regression for both speed and reliability.  
+- Enhanced voice data augmentation and handled tricky audio anomalies during preprocessing.  
+- Worked hand-in-hand with Ishimwe to align voice confidence thresholds with system-wide authentication logic.  
+His work guaranteed the voice verification module was both scientifically sound and operationally seamless.
 
-🚀 Response Ashimwe – Project Manager & Multimodal Integration
-- Led project planning, architecture design, and task coordination
-- Integrated face, voice, and product modules into a unified pipeline
-- Developed multimodal decision logic with confidence thresholds and blocking
-- Ensured rubric alignment, final deliverables, and codebase quality
-```
 
 
 This project demonstrates:
