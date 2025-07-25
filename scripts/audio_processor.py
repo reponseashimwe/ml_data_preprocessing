@@ -19,8 +19,8 @@ class AudioProcessor:
         """
         os.makedirs('data/audio', exist_ok=True)
         
-        # Define 6 members
-        members = ['member1', 'member2', 'member3', 'member4', 'member5', 'member6']
+        # Define 5 members
+        members = ['member1', 'member2', 'member3', 'member4', 'member5']
         phrases = ['yes_approve', 'confirm_transaction']
         
         # Clear existing synthetic audio to avoid mixing
