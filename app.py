@@ -416,7 +416,7 @@ class MultimodalAuthenticationSystem:
         
         # Step 3: Check if face and voice match
         if face_user != voice_user:
-            print(f"❌ Transaction denied: User mismatch! Face: {face_user}, Voice: {voice_user}")
+            print(f" Transaction denied: User mismatch! Face: {face_user}, Voice: {voice_user}")
             return
         
         # Step 4: Generate Product Recommendation
@@ -475,7 +475,7 @@ def main():
             break
         
         else:
-            print("❌ Invalid choice. Please try again.")
+            print(" Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     main()
