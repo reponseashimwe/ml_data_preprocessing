@@ -11,8 +11,11 @@ from scripts.audio_processor import AudioProcessor
 
 class MultimodalAuthenticationSystem:
     def __init__(self):
+        print("DEBUG: Initializing MultimodalAuthenticationSystem...")
         self.load_models()
+        print("DEBUG: Loaded models successfully.")
         self.load_fitted_processors()
+        print("DEBUG: Loaded fitted processors successfully.")
         
     def load_models(self):
         """
