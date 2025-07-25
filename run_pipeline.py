@@ -78,3 +78,15 @@ def main():
     print(f"{'='*60}")
     print(f"✅ Completed steps: {success_count}/{len(steps)}")
     
+if success_count == len(steps):
+        print("🎉 All pipeline steps completed successfully!")
+        print("\nYou can now run the demonstration system:")
+        print("python app.py")
+        
+        print("\nGenerated files:")
+        print("📄 data/merged_dataset.csv - Merged and engineered dataset")
+        print("📄 data/image_features.csv - Extracted image features")
+        print("📄 data/audio_features.csv - Extracted audio features")
+        print("🤖 models/ - Trained ML models")
+        print("📊 models/training_summary.csv - Model performance summary")
+        
