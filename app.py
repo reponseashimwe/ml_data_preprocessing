@@ -220,7 +220,7 @@ class MultimodalAuthenticationSystem:
             print(f"  User: {user_id}")
             print(f"  Confidence: {confidence:.3f}")
         else:
-            print(f"❌ Face authentication failed! (fallback mode)")
+            print(f" Face authentication failed! (fallback mode)")
             print(f"  Confidence too low: {confidence:.3f}")
         
         return authenticated, user_id, confidence
@@ -262,7 +262,7 @@ class MultimodalAuthenticationSystem:
                 print(f"  User: {user_id}")
                 print(f"  Confidence: {confidence:.3f}")
             else:
-                print(f"❌ Voice verification failed!")
+                print(f" Voice verification failed!")
                 print(f"  Confidence too low: {confidence:.3f}")
             
             return verified, user_id, confidence
@@ -290,11 +290,11 @@ class MultimodalAuthenticationSystem:
         verified = confidence > 0.6
         
         if verified:
-            print(f"✓ Voice verification successful! (fallback mode)")
+            print(f" Voice verification successful! (fallback mode)")
             print(f"  User: {user_id}")
             print(f"  Confidence: {confidence:.3f}")
         else:
-            print(f"❌ Voice verification failed! (fallback mode)")
+            print(f" Voice verification failed! (fallback mode)")
             print(f"  Confidence too low: {confidence:.3f}")
         
         return verified, user_id, confidence
