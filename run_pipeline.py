@@ -56,10 +56,10 @@ def main():
     
     # Pipeline steps
     steps = [
-        ("scripts/data_merger.py", "Data Merging and Feature Engineering"),
-        ("scripts/image_processor.py", "Image Data Processing"),
-        ("scripts/audio_processor.py", "Audio Data Processing"),
-        ("scripts/model_trainer.py", "Model Training and Evaluation")
+        ("scripts/data_merger.", "Data Merging and Feature Engineering"),
+        ("scripts/image_processor.", "Image Data Processing"),
+        ("scripts/audio_processor.", "Audio Data Processing"),
+        ("scripts/model_trainer.", "Model Training and Evaluation")
     ]
     
     # Run each step
