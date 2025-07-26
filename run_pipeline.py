@@ -78,7 +78,7 @@ def main():
     print(f"{'='*60}")
     print(f"✅ Completed steps: {success_count}/{len(steps)}")
     
-if success_count == len(steps):
+ if success_count == len(steps):
         print("🎉 All pipeline steps completed successfully!")
         print("\nYou can now run the demonstration system:")
         print("python app.py")
@@ -90,3 +90,10 @@ if success_count == len(steps):
         print("🤖 models/ - Trained ML models")
         print("📊 models/training_summary.csv - Model performance summary")
         
+    else:
+        print("❌ Pipeline execution incomplete. Please check the errors above.")
+    
+    print("="*60)
+
+if __name__ == "__main__":
+    main()
