@@ -5,3 +5,6 @@ opencv-python
 librosa 
 soundfile 
 matplotlib  
+seaborn 
+joblib 
+pillow
