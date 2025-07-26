@@ -42,7 +42,9 @@ def create_directories():
     print("📁 Created necessary directories")
 
 def main():
-
+    """
+    Run the complete ML pipeline
+    """
     print("🎯 MULTIMODAL ML PIPELINE - ASSIGNMENT RUNNER")
     print("="*60)
     print("This script will run the complete machine learning pipeline")
