@@ -308,21 +308,21 @@ class MultimodalAuthenticationSystem:
         try:
             # Updated sample_features to match the 15 features from data_merger.py
             sample_features = np.array([[
-                70,      # engagement_score (dummy)
-                3.5,     # purchase_interest_score (dummy)
-                1,       # platform_encoded (dummy)
-                0,       # sentiment_encoded (dummy)
-                150.5,   # purchase_amount_mean (dummy)
-                1505.0,  # purchase_amount_sum (dummy)
-                50.0,    # purchase_amount_std (dummy)
-                10,      # purchase_amount_count (dummy)
-                4.0,     # customer_rating_mean (dummy)
-                0.5,     # customer_rating_std (dummy)
-                10,      # transaction_id_count (dummy)
-                30,      # days_since_last_purchase (dummy)
-                0.5,     # engagement_per_purchase (dummy)
-                0.8,     # interest_rating_ratio (dummy)
-                0.3,      # purchase_frequency (dummy)
+                70,      # engagement_score
+                3.5,     # purchase_interest_score
+                1,       # platform_encoded 
+                0,       # sentiment_encoded
+                150.5,   # purchase_amount_mean 
+                1505.0,  # purchase_amount_sum 
+                50.0,    # purchase_amount_std
+                10,      # purchase_amount_count
+                4.0,     # customer_rating_mean
+                0.5,     # customer_rating_std
+                10,      # transaction_id_count 
+                30,      # days_since_last_purchase 
+                0.5,     # engagement_per_purchase 
+                0.8,     # interest_rating_ratio 
+                0.3,      # purchase_frequency 
                 0.1,
                 15
             ]])
