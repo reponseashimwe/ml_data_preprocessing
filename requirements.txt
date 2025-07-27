@@ -1,0 +1,10 @@
+pandas
+numpy 
+scikit-learn 
+opencv-python
+librosa 
+soundfile 
+matplotlib  
+seaborn 
+joblib 
+pillow
