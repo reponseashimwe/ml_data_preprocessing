@@ -322,7 +322,9 @@ class MultimodalAuthenticationSystem:
                 30,      # days_since_last_purchase (dummy)
                 0.5,     # engagement_per_purchase (dummy)
                 0.8,     # interest_rating_ratio (dummy)
-                0.3      # purchase_frequency (dummy)
+                0.3,      # purchase_frequency (dummy)
+                0.1,
+                15
             ]])
             
             # Predict product category
